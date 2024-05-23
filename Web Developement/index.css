@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Optional but recommended */
+}
+.main {
+    border: 10px solid rgb(182, 106, 106); /* Set the border color to white */
+    padding: 30px;
+    background-color: #f0f0f0;
+    
+   
+}
+.paragraph-container {
+    width: 80%; /* Width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding inside the container */
+    display: flex;
+            flex-direction: column; /* Stack paragraphs vertically */
+            justify-content: center; /* Center vertically */
+            align-items: center; /* Center horizontally */
+}
+
+.paragraph-container p {
+    margin-bottom: 15px; /* Space between paragraphs */
+    font-size: 16px; /* Font size of paragraphs */
+    line-height: 1.5; /* Line height for better readability */
+}
+.image-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the images */
+    align-items: center; /* Vertically center the images */
+    height: 20vh; /* Set height relative to viewport height */
+     /* Optional: background color for the container */
+    margin: 20px;
+    border: 1px solid #000; /* Optional: border to visualize the container */
+    background-color: #f0f0f0;
+}
+
+img {
+    border-radius: 100%; /* Makes the image round */
+    width: 10vw; /* Set a relative width for the image */
+    height: 10vw; /* Set a relative height for the image */
+    object-fit: cover; /* Ensures the image covers the container without stretching */
+    padding: 10px;
+}
+
+
+
+
+
+
+
